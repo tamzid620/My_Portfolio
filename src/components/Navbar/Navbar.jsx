@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar bg-base-300 justify-between fixed max-w-screen-xl z-10 bg-opacity-70 -mt-5 ">
+      <div className="navbar bg-base-300 justify-between fixed max-w-screen-xl z-10 bg-opacity-50">
         <div className="navbar-start">
           <p className="uppercase text-xl bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 text-white p-2 rounded-xl">myportfolio</p>
         </div>

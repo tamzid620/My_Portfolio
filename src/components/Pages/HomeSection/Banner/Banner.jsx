@@ -7,8 +7,8 @@ const Banner = () => {
 
     return (
         
-        <div style={{justifyItems:"center"}} className='grid sm:grid-cols-1 lg:grid-cols-2 items-center my-5'>
-            <div className=' sm: ms-3 lg:ms-20'>
+        <div style={{justifyItems:"center"}} className='grid sm:grid-cols-1 lg:grid-cols-2 items-center'>
+            <div className=' sm: ms-3 lg:ms-20 lg:mt-40 sm: mt-20'>
                 <p className="font-semibold ">
                    <span className="font-bold text-1xl uppercase text-purple-700">Assalamualikum, </span> <br />
                     <span className="font-bold text-3xl uppercase">I  am 
@@ -18,7 +18,7 @@ const Banner = () => {
                 </p>
                 <button className="btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3">Resume</button>
             </div>
-            <div className='card'>
+            <div className='card mt-16'>
                 <img className='w-[450px] rounded-full' src={bannerimg} alt="" />
             </div>
             </div>
