@@ -25,12 +25,12 @@ const MyEmail = () => {
             <div className='flex justify-center mt-10'>
                 <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
 
-                    <div>
+                    <div className='text-lg'>
                         <img className='w-[500px] rounded-3xl mb-5' src={emailimg} alt="" />
-                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdMarkEmailUnread className='text-red-500' /> E-mail : tamzid620@gmail.com</p>
-                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdCall className='text-green-700' /> Phone : +8801852951963</p>
-                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdWhatsapp className='text-green-500' /> what'sapp : +8801852951963</p>
-                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdLocationOn className='text-yellow-400' /> Location : Chattagram,Bangladesh</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdMarkEmailUnread className='text-red-500' /> E-mail : tamzid620@gmail.com</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdCall className='text-green-700' /> Phone : +8801852951963</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdWhatsapp className='text-green-500' /> what'sapp : +8801852951963</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdLocationOn className='text-yellow-400' /> Location : Chattagram,Bangladesh</p>
                     </div>
 
 
