@@ -1,12 +1,68 @@
+import Swal from 'sweetalert2';
+import emailimg from '../../../../../src/assets/icons/email.gif'
+import { MdMarkEmailUnread, MdCall, MdWhatsapp, MdLocationOn } from "react-icons/md";
+
 
 
 const MyEmail = () => {
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        Swal.fire({
+            icon: 'success',
+            title: 'Email Sent',
+            showConfirmButton: false,
+            timer: 1500
+          })
+
+      };
+
     return (
         <div className="my-20">
             <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">Send Your Email</h2>
             <hr />
             <div className='flex justify-center mt-10'>
-                
+                <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
+
+                    <div>
+                        <img className='w-[500px] rounded-3xl mb-5' src={emailimg} alt="" />
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdMarkEmailUnread className='text-red-500' /> E-mail : tamzid620@gmail.com</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdCall className='text-green-700' /> Phone : +8801852951963</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdWhatsapp className='text-green-500' /> what'sapp : +8801852951963</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center'><MdLocationOn className='text-yellow-400' /> Location : Chattagram,Bangladesh</p>
+                    </div>
+
+
+                    <div>
+                        <form onSubmit={handleSubmit} action="/submit-feedback" method="post" className="lg:w-[550px] sm:w-[350px] mx-auto p-4 bg-white shadow-md rounded-md">
+                            <div>
+                                <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name:</label>
+                                <input type="text" id="name" name="name" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your Name' />
+                            </div>
+
+                            <div>
+                                <label htmlFor="email" className="block text-gray-700 font-bold mb-2">Email:</label>
+                                <input type="email" id="email" name="email" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your E-mail' />
+                            </div>
+
+                            <div >
+                                <label htmlFor="subject" className="block text-gray-700 font-bold mb-2">Subject:</label>
+                                <input type="text" id="subject" name="subject" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='E-mail Subject' />
+                            </div>
+
+                            <div>
+                                <label htmlFor="feedback" className="block text-gray-700 font-bold mb-2">Feedback:</label>
+                                <textarea id="feedback" name="feedback" rows="5" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your FeedBack'></textarea>
+                            </div>
+
+                            <input type="submit" value="Send" className="btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3 cursor-pointer" />
+                        </form>
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
     );

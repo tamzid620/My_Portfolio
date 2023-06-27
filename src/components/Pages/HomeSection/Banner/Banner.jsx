@@ -12,7 +12,7 @@ const Banner = () => {
                 <p className="font-semibold ">
                    <span className="font-bold text-1xl uppercase text-purple-700">Assalamualikum, </span> <br />
                     <span className="font-bold text-3xl uppercase">I  am 
-                    <Typewriter className="text-purple-700" text=' Tamzid Ull Monir ,' />
+                    <span className="text-purple-700"><Typewriter text=' Tamzid Ull Monir ,' /></span>
                     </span> <br />
                     <span> A passionate web developer dedicated to crafting exceptional online experiences. With a keen eye for design and a love for coding, I specialize in creating dynamic and user-friendly websites that leave a lasting impression. From front-end development using HTML, CSS, and JavaScript to back-end programming with expressjs and Mongodb and many more.</span>
                 </p>
