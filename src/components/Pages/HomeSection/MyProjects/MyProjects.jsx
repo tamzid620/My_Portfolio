@@ -3,6 +3,7 @@ import { GrServer } from "react-icons/gr";
 import azraelle from '../../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp_ss.png'
 import handy from '../../../../../src/assets/images/handy-toy/handy_toy_ss.png'
 import chef from '../../../../../src/assets/images/chef-mania/chef_mania_ss.png'
+import { Link } from "react-router-dom";
 
 
 const MyProjects = () => {
@@ -12,6 +13,8 @@ const MyProjects = () => {
             <hr />
             <div className='flex justify-center mt-10 '>
 <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+
+        {/*---------------- my projects card --------------- */}
 
 <div className="card w-96 shadow-xl transform hover:scale-105 transition duration-300 bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
   <figure><img className='p-2 rounded-xl' src={azraelle} alt="Shoes" /></figure>
@@ -29,7 +32,9 @@ const MyProjects = () => {
     </p>
     <div className="card-actions justify-between">
         <div> 
+        <Link to="/azraelle">
         <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">Details <BsFillMenuButtonWideFill className="ms-2"/></div>
+        </Link>
         </div>
         <div>
       <a href="https://github.com/tamzid620/azraelle-language-camp_client" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">Client_Site <GrServer/></a> 
@@ -54,8 +59,10 @@ const MyProjects = () => {
       <span >• Firebase, ReactIcons, Reacttoast, etc...</span> <br />
     </p>
     <div className="card-actions justify-between">
-        <div> 
+        <div>
+        <Link to="/handy">
         <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">Details <BsFillMenuButtonWideFill className="ms-2"/></div>
+        </Link>
         </div>
         <div>
         <a href="https://github.com/tamzid620/handy_toy_client" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">Client_Site <GrServer/></a> 
@@ -80,8 +87,10 @@ const MyProjects = () => {
       <span >• Firebase, ReactIcons, Reacttoast, etc...</span> <br />
     </p>
     <div className="card-actions justify-between">
-        <div> 
+        <div>
+        <Link to="/chef">
         <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">Details <BsFillMenuButtonWideFill className="ms-2"/></div>
+        </Link>
         </div>
         <div>
         <a href="https://github.com/tamzid620/chef_mania_client" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">Client_Site <GrServer/></a> 
