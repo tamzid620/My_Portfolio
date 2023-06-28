@@ -1,7 +1,10 @@
 import Swal from 'sweetalert2';
 import emailimg from '../../../../../src/assets/icons/email.gif'
 import { MdMarkEmailUnread, MdCall, MdWhatsapp, MdLocationOn } from "react-icons/md";
-
+import facebook from '../../../../../src/assets/icons/facebook.png'
+import instagram from '../../../../../src/assets/icons/instagram.png'
+import linkedin from '../../../../../src/assets/icons/linkedin.png'
+import github from '../../../../../src/assets/icons/github.png'
 
 
 const MyEmail = () => {
@@ -14,9 +17,9 @@ const MyEmail = () => {
             title: 'Email Sent',
             showConfirmButton: false,
             timer: 1500
-          })
+        })
 
-      };
+    };
 
     return (
         <div className="my-20">
@@ -31,6 +34,20 @@ const MyEmail = () => {
                         <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdCall className='text-green-700' /> Phone : +8801852951963</p>
                         <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdWhatsapp className='text-green-500' /> what'sapp : +8801852951963</p>
                         <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdLocationOn className='text-yellow-400' /> Location : Chattagram,Bangladesh</p>
+                        <div className="footer p-5 ">
+                            <div>
+                                <h2 className='text-purple-900 mb-3 font-semibold'>Social Links:</h2>
+                                <div className="grid grid-flow-col gap-4">
+                                    <div><a href="https://www.facebook.com/tamzid.ull.monir512"><img style={{ width: "30px" }} src={facebook} alt="" /></a></div>
+
+                                    <div><a href="https://www.instagram.com/Tamzid_Ull_Monir/"><img style={{ width: "30px" }} src={instagram} alt="" /></a></div>
+
+                                    <div><a href="https://www.linkedin.com/in/tamzid-monir-96b163260/"><img style={{ width: "30px" }} src={linkedin} alt="" /></a></div>
+
+                                    <div><a href="https://github.com/tamzid620"><img style={{ width: "30px" }} src={github} alt="" /></a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
