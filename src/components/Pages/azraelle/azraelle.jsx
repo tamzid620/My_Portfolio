@@ -1,7 +1,6 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import './azraelle.css'
 import ss1 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp1.png'
 import ss2 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp2.png'
 import ss3 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp3.png'
@@ -14,6 +13,8 @@ import ss9 from '../../../../src/assets/images/azraelle-language-camp/azraelle-l
 import ss10 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp10.png'
 import ss11 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp11.png'
 import ss12 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp12.png'
+import ss13 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp13.png'
+import ss14 from '../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp14.png'
 import { Link } from "react-router-dom";
 
 const Azraelle = () => {
@@ -64,6 +65,12 @@ const Azraelle = () => {
                             <div className="w-[350px]">
                                 <img src={ss12} />
                             </div>
+                            <div className="w-[350px]">
+                                <img src={ss13} />
+                            </div>
+                            <div className="w-[350px]">
+                                <img src={ss14} />
+                            </div>
                         </Carousel>
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
@@ -83,7 +90,7 @@ const Azraelle = () => {
                             ‣we have login and registration option so you need to must login or registration for visit out page <br />
 
                             ➌ Used packages/ technology name : <br /> <br />
-   =>  in client site ------------ <br />
+=>  in client site ------------ <br />
                             ‣ react motion  <br />
                             ‣ react font-awsome icon <br />
                             ‣ stripe  <br />
@@ -95,7 +102,7 @@ const Azraelle = () => {
                             ‣ sweet alert <br />
                             ‣ daisy ui <br />
                             ‣ vite <br /> <br />
-   =>  in server site ------------- <br />
+=>  in server site ------------- <br />
                             ‣ jason web  token <br />
                             ‣ express <br />
                             ‣ cors <br />
@@ -103,7 +110,7 @@ const Azraelle = () => {
                             ‣ enviroment variable <br />
                         </p>
                         <Link to="/">
-                        <button className="btn  text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3">Back To Home</button>
+                            <button className="btn  text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3">Back To Home</button>
                         </Link>
                     </div>
                 </div>
