@@ -16,7 +16,7 @@ const Banner = () => {
                     </span> <br />
                     <span> A passionate web developer dedicated to crafting exceptional online experiences. With a keen eye for design and a love for coding, I specialize in creating dynamic and user-friendly websites that leave a lasting impression. From front-end development using HTML, CSS, and JavaScript to back-end programming with expressjs and Mongodb and many more.</span>
                 </p>
-                <a href="https://drive.google.com/file/d/1VLm6Kt6Ko3p9Uq04p3qtY-0jCjH96xQ0/view"  target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1iLG3jpcDCZ4UM1uKMLdHwF4Dgvpk30iH/view?usp=sharing"  target="_blank" rel="noreferrer">
                     <button className="btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3">Resume</button>
                 </a>
             </div>
