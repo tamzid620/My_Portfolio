@@ -5,8 +5,8 @@ const Navbar = () => {
   const navigation =
     <>
       <NavLink to="/"><li className="font-bold"><a>Home</a></li></NavLink>
-      <NavLink to="/"><li className="font-bold"><a>Projects</a></li></NavLink>
-      <NavLink to="/"><li className="font-bold"><a>About Me</a></li></NavLink>
+      <NavLink to="/myproject"><li className="font-bold"><a>Projects</a></li></NavLink>
+      <NavLink to="/blog"><li className="font-bold"><a>About Me</a></li></NavLink>
     </>
 
   return (

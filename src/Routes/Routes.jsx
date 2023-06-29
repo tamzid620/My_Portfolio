@@ -5,6 +5,8 @@ import ErrorPage from "../components/Pages/ErrorPage/ErrorPage";
 import Azraelle from "../components/Pages/azraelle/azraelle";
 import Handy from "../components/Pages/handy/handy";
 import Chef from "../components/Pages/chef/chef";
+import MyProjects from "../components/Pages/HomeSection/MyProjects/MyProjects";
+import Blog from "../components/Pages/HomeSection/Blog/Blog";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +17,14 @@ export const router = createBrowserRouter([
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/myproject",
+          element: <MyProjects/>,
+        },
+        {
+          path: "/blog",
+          element: <Blog/>,
         },
         {
           path: "/azraelle",
