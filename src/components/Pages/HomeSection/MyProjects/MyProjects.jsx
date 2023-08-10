@@ -3,6 +3,7 @@ import { GrServer } from "react-icons/gr";
 import azraelle from '../../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp_ss.png'
 import handy from '../../../../../src/assets/images/handy-toy/handy_toy_ss.png'
 import chef from '../../../../../src/assets/images/chef-mania/chef_mania_ss.png'
+import azaharmia from '../../../../../src/assets/images/azahar-mia-family/azaharmia-1.png'
 import { Link } from "react-router-dom";
 
 
@@ -15,6 +16,8 @@ const MyProjects = () => {
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
 
           {/*---------------- my projects card --------------- */}
+
+        {/* Azraelle  */}
 
           <div className="card w-96 shadow-xl transform hover:scale-105 transition duration-300 bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
             <figure><img className='p-2 rounded-xl' src={azraelle} alt="Shoes" /></figure>
@@ -44,6 +47,8 @@ const MyProjects = () => {
             </div>
           </div>
 
+        {/* Handy Toy */}
+
           <div className="card w-96 shadow-xl transform hover:scale-105 transition duration-300 bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
             <figure><img className='p-2 rounded-xl' src={handy} alt="Shoes" /></figure>
             <div className="card-body">
@@ -72,6 +77,8 @@ const MyProjects = () => {
             </div>
           </div>
 
+        {/* Chef Mania  */}
+
           <div className="card w-96 shadow-xl transform hover:scale-105 transition duration-300 bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
             <figure><img className='p-2 rounded-xl' src={chef} alt="Shoes" /></figure>
             <div className="card-body">
@@ -95,6 +102,36 @@ const MyProjects = () => {
                 <div>
                   <a href="https://github.com/tamzid620/chef_mania_client" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">Client_Site <GrServer /></a>
                   <a href="https://github.com/tamzid620/chef_manis_server" target="_blank" rel="noreferrer" className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400">Server_Site <GrServer /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {/* Azahar Mia  */}
+
+          <div className="card w-96 shadow-xl transform hover:scale-105 transition duration-300 bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
+            <figure><img className='p-2 rounded-xl' src={azaharmia} alt="Shoes" /></figure>
+            <div className="card-body">
+              <h2 className="card-title text-purple-700">
+                Azahar Mia Family
+                <a href="https://azahar-mia-family.netlify.app/" target="_blank" className="badge badge-warning border-gray-500  hover:bg-slate-400" rel="noreferrer">Visit <BsFillArrowRightCircleFill className="ms-2" /></a>
+
+              </h2>
+              <p className="font-semibold mb-5">
+                <span >• Html, Css, JavaScript,</span> <br />
+                <span >• Nodejs, tailwind</span> <br />
+                <span >• React, Vite </span> <br />
+                <span >• Netlify, ReactIcons, Reacttoast, etc...</span> <br />
+              </p>
+              <div className="card-actions justify-between">
+                <div>
+                  <Link to="/azaharmia">
+                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">Details <BsFillMenuButtonWideFill className="ms-2" /></div>
+                  </Link>
+                </div>
+                <div>
+                  <a href="https://github.com/tamzid620/Azahar_Mia_2.0" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">Client_Site <GrServer /></a>
+                  <a href="https://github.com/tamzid620/Azahar_Mia_2.0" target="_blank" rel="noreferrer" className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400">Server_Site <GrServer /></a>
                 </div>
               </div>
             </div>

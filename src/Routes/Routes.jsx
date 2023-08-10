@@ -7,6 +7,7 @@ import Handy from "../components/Pages/handy/handy";
 import Chef from "../components/Pages/chef/chef";
 import MyProjects from "../components/Pages/HomeSection/MyProjects/MyProjects";
 import Blog from "../components/Pages/HomeSection/Blog/Blog";
+import AzaharMia from "../components/Pages/AzaharMia/AzaharMia";
 
 export const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
         {
           path: "/chef",
           element: <Chef/>,
+        },
+        {
+          path: "/azaharmia",
+          element: <AzaharMia/>,
         },
       ],
     },
