@@ -17,6 +17,7 @@ import vite from '../../../../../src/assets/icons/vite.svg'
 import axious from '../../../../../src/assets/icons/axious.png'
 import npm from '../../../../../src/assets/icons/npm.png'
 import v8 from '../../../../../src/assets/icons/V8_JavaScript_engine_logo_2.svg'
+import vercel from '../../../../../src/assets/icons/vercel.jpg'
 
 const MySkills = () => {
     return (
@@ -311,6 +312,22 @@ const MySkills = () => {
                             <div className="inner-element"> 
                                 <img className='w-[150px]' src={netlify} alt="" /> 
                                 <h1 className='flex justify-center'>netlify</h1>
+                            </div>
+                        </Tilt>
+                    </div>
+                    <div className='bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center'>
+                        <Tilt
+                            className="track-on-window"
+                            perspective={500}
+                            glareEnable={true}
+                            glareMaxOpacity={0.75}
+                            glarePosition="all"
+                            scale={1.02}
+                            trackOnWindow={true}
+                        >
+                            <div className="inner-element"> 
+                                <img className='w-[150px]' src={vercel} alt="" /> 
+                                <h1 className='flex justify-center'>vercel</h1>
                             </div>
                         </Tilt>
                     </div>
