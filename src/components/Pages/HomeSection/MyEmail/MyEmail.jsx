@@ -32,8 +32,8 @@ const MyEmail = () => {
                         <img className='w-[500px] rounded-3xl mb-5' src={emailimg} alt="" />
                         <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdMarkEmailUnread className='text-red-500' /> E-mail : tamzid620@gmail.com</p>
                         <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdCall className='text-green-700' /> Phone : +8801852951963</p>
-                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdWhatsapp className='text-green-500' /> what'sapp : +8801852951963</p>
-                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdLocationOn className='text-yellow-400' /> Location : Chattagram,Bangladesh</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdWhatsapp className='text-green-500' /> what'sapp : +8801757566555</p>
+                        <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdLocationOn className='text-yellow-400' /> Location : Chattogram,Bangladesh</p>
                         <div className="footer p-5 ">
                             <div>
                                 <h2 className='text-purple-900 mb-3 font-semibold'>Social Links:</h2>
