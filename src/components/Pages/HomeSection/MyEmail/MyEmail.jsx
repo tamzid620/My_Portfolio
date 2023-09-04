@@ -5,6 +5,9 @@ import facebook from '../../../../../src/assets/icons/facebook.png'
 import instagram from '../../../../../src/assets/icons/instagram.png'
 import linkedin from '../../../../../src/assets/icons/linkedin.png'
 import github from '../../../../../src/assets/icons/github.png'
+import emailjs from 'emailjs-com';
+
+    emailjs.init("PIOjzCl1ftxF_58QU");
 
 
 const MyEmail = () => {
@@ -12,13 +15,28 @@ const MyEmail = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        Swal.fire({
-            icon: 'success',
-            title: 'Email Sent',
-            showConfirmButton: false,
-            timer: 1500
+        // Swal.fire({
+        //     icon: 'success',
+        //     title: 'Email Sent',
+        //     showConfirmButton: false,
+        //     timer: 1500
+        // })
+        const params = {
+            from_name :document.getElementById("fullName").value,
+            email_id : document.getElementById("email_id").value,
+            subject: document.getElementById("subject").value,
+            Feedback: document.getElementById("message").value,
+        }
+        emailjs.send('service_6cazdak' , 'template_42ulb2t', params).then(function(res){
+            // alert('Success!' + res.status);
+            Swal.fire({
+                icon: 'success'+ res.status,
+                title: 'Email Sent',
+                showConfirmButton: false,
+                timer: 1500
+            })
         })
-
+        console.log('button clicked');
     };
 
     return (
@@ -50,17 +68,17 @@ const MyEmail = () => {
                         </div>
                     </div>
 
-
+{/* email input section  */}
                     <div>
                         <form onSubmit={handleSubmit} action="/submit-feedback" method="post" className="lg:w-[550px] sm:w-[350px] mx-auto p-4 bg-white shadow-md rounded-md">
                             <div>
                                 <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name:</label>
-                                <input type="text" id="name" name="name" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your Name' />
+                                <input type="text" id="fullName" name="name" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your Name' />
                             </div>
 
                             <div>
                                 <label htmlFor="email" className="block text-gray-700 font-bold mb-2">Email:</label>
-                                <input type="email" id="email" name="email" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your E-mail' />
+                                <input type="email" id="email_id" name="email" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your E-mail' />
                             </div>
 
                             <div >
@@ -70,7 +88,7 @@ const MyEmail = () => {
 
                             <div>
                                 <label htmlFor="feedback" className="block text-gray-700 font-bold mb-2">Feedback:</label>
-                                <textarea id="feedback" name="feedback" rows="5" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your FeedBack'></textarea>
+                                <textarea id="message" name="feedback" rows="5" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your FeedBack'></textarea>
                             </div>
 
                             <input type="submit" value="Send" className="btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3 cursor-pointer" />
@@ -78,6 +96,7 @@ const MyEmail = () => {
 
 
                     </div>
+                    
                 </div>
 
             </div>
