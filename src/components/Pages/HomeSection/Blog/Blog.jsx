@@ -1,13 +1,17 @@
 import blogimg from '../../../../../src/assets/images/blogimg1.png'
 import Typewriter from 'react-ts-typewriter';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Blog = () => {
+    Aos.init();
+
     return (
         <div className="py-20">
             <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">About Me</h2>
             <hr />
 
-            <div className='flex justify-center items-center mt-10 rounded-3xl bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400 sm:relative transition-all duration-300 transform sm:hover:scale-105 hover:-translate-y-2 '>
+            <div data-aos="zoom-in" className='ms-5 me-5 flex justify-center items-center mt-10 rounded-3xl  sm:relative '>
                 <div style={{ alignItems: "center", justifyContent: "center" }} className='grid sm:grid-cols-1 lg:grid-cols-2'>
                     <div className=''>
                         <img className='w-[350px] lg:ms-20 sm:ms-3' src={blogimg} alt="" />

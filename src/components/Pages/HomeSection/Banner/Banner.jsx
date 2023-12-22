@@ -8,10 +8,11 @@ const Banner = () => {
 
   return (
     <div
-      style={{ justifyItems: "center" }}
-      className="grid sm:grid-cols-1 lg:grid-cols-2 items-center pt-10 pb-14 "
+      style={{ justifyItems: "center" ,alignItems:"center" }}
+      className="grid sm:grid-cols-1 lg:grid-cols-2 items-center  pb-14 "
     >
-      <div className=" sm: ms-3 lg:ms-20 lg:mt-40 sm: mt-20">
+      {/* Heading section  */}
+      <div className=" sm: ms-3 lg:ms-20 lg:mt-[150px] md:mt-[150px] sm: mt-[120px]">
         <p className="font-semibold ">
           <span
             data-aos="fade-down"
@@ -63,10 +64,10 @@ const Banner = () => {
           </button>
         </a>
       </div>
-      <div className="card mt-16">
-        <div className="relative">
-          <img className="w-[400px] rounded-full" src={bannerimg} alt="" />
-        </div>
+      {/* banner picture section  */}
+      <div>
+          <img className="w-[350px] lg:mt-[100px] md:mt-0 sm:mt-0 rounded-full" src={bannerimg} alt="" />
+     
       </div>
     </div>
   );
