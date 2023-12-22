@@ -13,10 +13,12 @@ import expressjs from "../../../../../src/assets/icons/express.png";
 import firebase from "../../../../../src/assets/icons/firebase.png";
 import vite from "../../../../../src/assets/icons/vite.svg";
 import axious from "../../../../../src/assets/icons/axious.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const MySkills = () => {
 
-
+    Aos.init();
 
   return (
     <div className="my-20 py-14 ">
@@ -25,53 +27,81 @@ const MySkills = () => {
       </h2>
       <hr />
       {/* flex div  */}
-      <div className="flex justify-center mt-10 uppercase font-semibold">
+      <div data-aos="fade-down" className="flex justify-center mt-10 uppercase font-semibold">
         {/* grid div  */}
         <div  className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* html logo  */}
-          <div  className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div 
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+          className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={html} alt="" /> <br />
               <h1 className="flex justify-center">HTML</h1>
             </div>
           </div>
           {/* css logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={css} alt="" />
               <h1 className="flex justify-center">css</h1>
             </div>
           </div>
           {/* JavaScript logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div 
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+          className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={JavaScript} alt="" />
               <h1 className="flex justify-center">JavaScript</h1>
             </div>
           </div>
           {/* Node logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={node} alt="" />
               <h1 className="flex justify-center">node.js</h1>
             </div>
           </div>
           {/* React logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div 
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+          className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={react} alt="" />
               <h1 className="flex justify-center">React</h1>
             </div>
           </div>
           {/* vite logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={vite} alt="" />
               <h1 className="flex justify-center">vite</h1>
             </div>
           </div>
           {/* react router  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <br />
               <img className="w-[100px]" src={reactrouter} alt="" /> <br />
@@ -79,7 +109,11 @@ const MySkills = () => {
             </div>
           </div>
           {/* tailwind logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div 
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+          className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               {" "}
               <br />
@@ -88,35 +122,55 @@ const MySkills = () => {
             </div>
           </div>
           {/* Bootstrap logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={bootstrap} alt="" /> <br />
               <h1 className="flex justify-center">bootstrap</h1>
             </div>
           </div>
           {/* Jwt Token  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div 
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+          className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={jwt} alt="" />
               <h1 className="flex justify-center">jwt token</h1>
             </div>
           </div>
           {/* Stripe logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1600"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={stripe} alt="" /> <br />
               <h1 className="flex justify-center">stripe</h1>
             </div>
           </div>
           {/* MongoDb logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1600"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={mongodb} alt="" />
               <h1 className="flex justify-center">mongodb</h1>
             </div>
           </div>
           {/* Express Js logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1600"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               {" "}
               <br />
@@ -125,14 +179,22 @@ const MySkills = () => {
             </div>
           </div>
           {/* Axios logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div 
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1600"
+          className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={axious} alt="" />
               <h1 className="flex justify-center">axious</h1>
             </div>
           </div>
           {/* firebase logo  */}
-          <div className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1600"
+           className="bg-zinc-100 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={firebase} alt="" />
               <h1 className="flex justify-center">firebase</h1>

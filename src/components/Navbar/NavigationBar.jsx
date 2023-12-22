@@ -63,7 +63,7 @@ const NavigationBar = () => {
     <nav 
     className='fixed z-10 
      bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300
-      shadow-lg shadow-stone-700'>
+      shadow-lg shadow-stone-700 opacity-90'>
       <div className="flex items-center justify-between">
         {/* resturant logo section  */}
         <div>
