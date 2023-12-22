@@ -29,7 +29,7 @@ const MySkills = () => {
       {/* flex div  */}
       <div data-aos="fade-down" className="flex justify-center mt-10 uppercase font-semibold">
         {/* grid div  */}
-        <div  className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div  className=" grid sm: grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           {/* html logo  */}
           <div 
           data-aos="fade-down"

@@ -12,7 +12,7 @@ const Blog = () => {
             <hr />
 
             <div data-aos="zoom-in" className='ms-5 me-5 flex justify-center items-center mt-10 rounded-3xl  sm:relative '>
-                <div style={{ alignItems: "center", justifyContent: "center" }} className='grid sm:grid-cols-1 lg:grid-cols-2'>
+                <div style={{ alignItems: "center", justifyContent: "center" }} className='grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
                     <div className=''>
                         <img className='w-[350px] lg:ms-20 sm:ms-3' src={blogimg} alt="" />
                     </div>

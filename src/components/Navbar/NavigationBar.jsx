@@ -98,6 +98,17 @@ const NavigationBar = () => {
         </li>
 
       </ul>
+      <ul className=" lg:hidden md:flex sm: hidden  text-black">
+        <li title="Home">
+          <Link  to="/">Home</Link>
+        </li>
+        <li title="Order Tracking">
+          <Link to="/myproject">Projects</Link>
+        </li>
+        <li title="Menu">
+          <Link to="/blog">About Me</Link>
+        </li>
+      </ul>
     </nav>
   );
 };
