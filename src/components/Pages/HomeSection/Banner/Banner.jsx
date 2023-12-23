@@ -18,7 +18,7 @@ const Banner = () => {
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="700"
-            className="font-bold text-1xl uppercase text-purple-700"
+            className="font-bold text-1xl uppercase text-purple-800"
           >
             Assalamualikum,{" "}
           </span>{" "}
@@ -29,7 +29,7 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1000"
-              className="text-purple-700"
+              className="text-purple-800"
             >
               <Typewriter text=" Tamzid Ull Monir ," />
             </span>
@@ -58,7 +58,8 @@ const Banner = () => {
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
-            className="btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3"
+            className="btn text-white mt-3
+            bg-purple-800 hover:text-black shadow-2xl"
           >
             Resume
           </button>
@@ -66,7 +67,7 @@ const Banner = () => {
       </div>
       {/* banner picture section  */}
       <div>
-          <img className="w-[350px] lg:mt-[100px] md:mt-0 sm:mt-0 rounded-full" src={bannerimg} alt="" />
+          <img className="w-[350px] lg:mt-[100px] md:mt-0 sm:mt-0 rounded-full " src={bannerimg} alt="" />
      
       </div>
     </div>

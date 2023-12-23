@@ -16,14 +16,14 @@ const MyProjects = () => {
   return (
     <div className="py-20 ">
       <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">My Projects</h2>
-      <hr />
+      <hr className="border-[#5BCCF6]"/>
       <div className='flex justify-center mt-10 '>
         <div className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
           {/*---------------- my projects card --------------- */}
 
         {/* Handy Toy */}
-          <div data-aos="flip-down" data-aos-duration="700" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl  bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
+          <div data-aos="flip-down" data-aos-duration="700" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-2xl   bg-transparent border-t-2 border-slate-300">
             <figure><img className='p-2 rounded-xl' src={handy} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
@@ -52,7 +52,7 @@ const MyProjects = () => {
           </div>
 
         {/* Azahar Mia  */}
-          <div data-aos="flip-down" data-aos-duration="900" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl  bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
+          <div data-aos="flip-down" data-aos-duration="900" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-2xl   bg-transparent border-t-2 border-slate-300">
             <figure><img className='p-2 rounded-xl' src={azaharmia} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
@@ -81,7 +81,7 @@ const MyProjects = () => {
           </div>
 
         {/* Azraelle  */}
-        <div data-aos="flip-down" data-aos-duration="1100" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl  bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
+        <div data-aos="flip-down" data-aos-duration="1100" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-2xl   bg-transparent border-t-2 border-slate-300">
             <figure><img className='p-2 rounded-xl' src={azraelle} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
@@ -110,7 +110,7 @@ const MyProjects = () => {
           </div>
 
         {/* Chef Mania  */}
-        <div data-aos="flip-down" data-aos-duration="1400" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl  bg-gradient-to-r from-slate-300 via-stone-200 to-zinc-400">
+        <div data-aos="flip-down" data-aos-duration="1400" className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-2xl   bg-transparent border-t-2 border-slate-300">
             <figure><img className='p-2 rounded-xl' src={chef} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">

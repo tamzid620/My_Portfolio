@@ -62,8 +62,7 @@ const NavigationBar = () => {
   return (
     <nav 
     className='fixed z-10 
-     bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300
-      shadow-lg shadow-stone-700 opacity-90'>
+     bg-[#FCDE67] opacity-90'>
       <div className="flex items-center justify-between">
         {/* resturant logo section  */}
         <div>
@@ -78,10 +77,7 @@ const NavigationBar = () => {
         </div>
 
       </div>
-      <div className="hamburger">
-        {/* <div className={`line1 ${isOpen ? "line1-open" : ""}`}></div>
-        <div className={`line2 ${isOpen ? "line2-open" : ""}`}></div>
-        <div className={`line3 ${isOpen ? "line3-open" : ""}`}></div> */}
+      <div className="hamburger ">
         <div className={'line1'}></div>
         <div className={'line2'}></div>
         <div className={'line3'}></div>
@@ -98,17 +94,19 @@ const NavigationBar = () => {
         </li>
 
       </ul>
-      <ul className=" lg:hidden md:flex sm: hidden  text-black">
-        <li title="Home">
-          <Link  to="/">Home</Link>
-        </li>
-        <li title="Order Tracking">
-          <Link to="/myproject">Projects</Link>
-        </li>
-        <li title="Menu">
-          <Link to="/blog">About Me</Link>
-        </li>
-      </ul>
+
+      <ul className=" lg:hidden md:flex sm: hidden text-black mt-5 -ms-[90px]">
+  <li className="mr-10 text-2xl font-semibold" title="Home">
+    <Link to="/">Home</Link>
+  </li>
+  <li className="mr-10 text-2xl font-semibold" title="Projects">
+    <Link to="/myproject">Projects</Link>
+  </li>
+  <li className=" text-2xl font-semibold" title="About Me">
+    <Link to="/blog">About Me</Link>
+  </li>
+</ul>
+
     </nav>
   );
 };
