@@ -62,7 +62,7 @@ const NavigationBar = () => {
   return (
     <nav 
     className='fixed z-10 
-     bg-[#FCDE67] opacity-90'>
+     bg-white opacity-90'>
       <div className="flex items-center justify-between">
         {/* resturant logo section  */}
         <div>

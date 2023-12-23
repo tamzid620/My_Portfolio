@@ -110,7 +110,7 @@ const MyEmail = () => {
               onSubmit={handleSubmit}
               action="/submit-feedback"
               method="post"
-              className="bg-[#FCDE67]   shadow-xl lg:w-[550px] sm:w-[350px] mx-auto p-4  rounded-md"
+              className="bg-transparent shadow-2xl lg:w-[550px] sm:w-[350px] mx-auto p-4  rounded-md"
             >
               <div>
                 <label
