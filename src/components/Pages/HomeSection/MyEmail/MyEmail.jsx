@@ -45,7 +45,7 @@ const MyEmail = () => {
             <hr />
             <div className='flex justify-center mt-10'>
                 <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-
+{/* picture information seciton  */}
                     <div className='text-lg'>
                         <img className='w-[500px] rounded-3xl mb-5' src={emailimg} alt="" />
                         <p className='text-purple-900 font-semibold flex gap-3 items-center ms-3'><MdMarkEmailUnread className='text-red-500' /> E-mail : tamzid620@gmail.com</p>
@@ -70,7 +70,7 @@ const MyEmail = () => {
 
 {/* email input section  */}
                     <div>
-                        <form onSubmit={handleSubmit} action="/submit-feedback" method="post" className="lg:w-[550px] sm:w-[350px] mx-auto p-4 bg-white shadow-md rounded-md">
+                        <form onSubmit={handleSubmit} action="/submit-feedback" method="post" className="bg-[#5BCCF6] lg:w-[550px] sm:w-[350px] mx-auto p-4 shadow-md rounded-md">
                             <div>
                                 <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name:</label>
                                 <input type="text" id="fullName" name="name" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your Name' />
@@ -91,7 +91,12 @@ const MyEmail = () => {
                                 <textarea id="message" name="feedback" rows="5" required className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" placeholder='Your FeedBack'></textarea>
                             </div>
 
-                            <input type="submit" value="Send" className="btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3 cursor-pointer" />
+                            {/* <input
+                               className="bg-[#FCDE67] btn text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3 cursor-pointer" /> */}
+                               <button
+                             type="submit"
+                                className='btn uppercase 
+                                bg-[#FCDE67]'>Send</button>
                         </form>
 
 
