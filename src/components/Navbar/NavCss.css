@@ -1,14 +1,15 @@
   
   ul.nav-links li button:hover {
     background-color: white;
-    /* color: black; */
+    color: rgb(2, 2, 89);
   }
 
 nav {
     height: 80px;
     margin-bottom: 50px;
     width: 100vw;
-    color: #f2f5f7;
+    /* color: #f2f5f7; */
+    color: black;
     background-color: white;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -33,7 +34,7 @@ nav {
 }
 
 .nav-links li a:hover {
-    color: white;
+    color: rgb(0, 0, 255);
 }
 
 .nav-links li {
@@ -105,6 +106,7 @@ nav {
     .nav-links {
         position: fixed;
         background: white;
+        color: black;
         height: 100vh;
         width: 100%;
         flex-direction: column;

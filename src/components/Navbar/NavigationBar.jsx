@@ -82,21 +82,21 @@ const NavigationBar = () => {
         <div className={'line2'}></div>
         <div className={'line3'}></div>
       </div>
-      <ul className="nav-links text-black">
-        <li title="Home">
+      <ul className="nav-links ">
+        <li className=" text-black" title="Home">
           <Link  to="/">Home</Link>
         </li>
-        <li title="Order Tracking">
+        <li className=" text-black" title="Order Tracking">
           <Link to="/myproject">Projects</Link>
         </li>
-        <li title="Menu">
+        <li className=" text-black" title="Menu">
           <Link to="/blog">About Me</Link>
         </li>
 
       </ul>
 
       <ul className=" lg:hidden md:flex sm: hidden text-black mt-5 -ms-[90px]">
-  <li className="mr-10 text-2xl font-semibold" title="Home">
+  <li className="mr-10 text-2xl font-semibold " title="Home">
     <Link to="/">Home</Link>
   </li>
   <li className="mr-10 text-2xl font-semibold" title="Projects">
