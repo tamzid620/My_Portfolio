@@ -96,18 +96,6 @@ const MySkills = () => {
               <h1 className="flex justify-center">vite</h1>
             </div>
           </div>
-          {/* react router  */}
-          <div
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1200"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
-            <div className="inner-element">
-              <br />
-              <img className="w-[100px]" src={reactrouter} alt="" /> <br />
-              <h1 className="flex justify-center">React router</h1>
-            </div>
-          </div>
           {/* tailwind logo  */}
           <div 
           data-aos="fade-down"
@@ -130,17 +118,6 @@ const MySkills = () => {
             <div className="inner-element">
               <img className="w-[100px]" src={bootstrap} alt="" /> <br />
               <h1 className="flex justify-center">bootstrap</h1>
-            </div>
-          </div>
-          {/* Jwt Token  */}
-          <div 
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1200"
-          className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
-            <div className="inner-element">
-              <img className="w-[100px]" src={jwt} alt="" />
-              <h1 className="flex justify-center">jwt token</h1>
             </div>
           </div>
           {/* Stripe logo  */}
