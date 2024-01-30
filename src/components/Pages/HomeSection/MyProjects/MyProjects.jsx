@@ -105,10 +105,10 @@ const MyProjects = () => {
                 </a>
               </h2>
               <p className="font-semibold mb-5">
-                <span>• Html, Css, JavaScript,</span> <br />
-                <span>• Nodejs, Mongodb, tailwind</span> <br />
-                <span>• React, Vite, expressjs, </span> <br />
-                <span>• Firebase, ReactIcons, Reacttoast, etc...</span> <br />
+              <span>• Html, Css, JavaScript,</span> <br />
+                <span>• Nodejs, React, tailwind</span> <br />
+                <span>• Vite,Laravel, Php, </span> <br />
+                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
               </p>
               <div className="card-actions justify-between">
                 <div>
@@ -162,10 +162,10 @@ const MyProjects = () => {
                 </a>
               </h2>
               <p className="font-semibold mb-5">
-                <span>• Html, Css, JavaScript,</span> <br />
-                <span>• Nodejs, Mongodb, tailwind</span> <br />
-                <span>• React, Vite, expressjs, </span> <br />
-                <span>• Firebase, ReactIcons, Reacttoast, etc...</span> <br />
+              <span>• Html, Css, JavaScript,</span> <br />
+                <span>• Nodejs, React, tailwind</span> <br />
+                <span>• Vite,Laravel, Php, </span> <br />
+                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
               </p>
               <div className="card-actions justify-between">
                 <div>
