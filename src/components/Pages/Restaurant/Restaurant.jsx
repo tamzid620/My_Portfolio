@@ -27,46 +27,46 @@ const Restaurant = () => {
                     <div className="flex justify-center">
                         <Carousel className="w-[350px]">
                             <div className="w-[350px]">
-                                <img src={ss1} />
+                                {/* <img src={ss1} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss2} />
+                                {/* <img src={ss2} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss3} />
+                                {/* <img src={ss3} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss4} />
+                                {/* <img src={ss4} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss5} />
+                                {/* <img src={ss5} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss6} />
+                                {/* <img src={ss6} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss7} />
+                                {/* <img src={ss7} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss8} />
+                                {/* <img src={ss8} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss9} />
+                                {/* <img src={ss9} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss10} />
+                                {/* <img src={ss10} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss11} />
+                                {/* <img src={ss11} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss12} />
+                                {/* <img src={ss12} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss13} />
+                                {/* <img src={ss13} /> */}
                             </div>
                             <div className="w-[350px]">
-                                <img src={ss14} />
+                                {/* <img src={ss14} /> */}
                             </div>
                         </Carousel>
                     </div>

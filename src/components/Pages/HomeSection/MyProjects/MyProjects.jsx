@@ -39,7 +39,7 @@ const MyProjects = () => {
               <h2 className="card-title text-purple-700">
                 Restaurant Project
                 <a
-                  href=" Paste project link here "
+                  href="https://stunning-panda-61ddff.netlify.app/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -79,7 +79,7 @@ const MyProjects = () => {
               <h2 className="card-title text-purple-700">
                 School Management
                 <a
-                  href=" Paste project link here"
+                  href="https://65b9eacd2cc4ca960cabfea2--dazzling-custard-561e7f.netlify.app/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -119,7 +119,7 @@ const MyProjects = () => {
               <h2 className="card-title text-purple-700">
                 Student Consultancy
                 <a
-                  href=" Paste project link here"
+                  href="https://65b9ebb2195e369984a129cb--fascinating-pavlova-6f64b0.netlify.app/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
