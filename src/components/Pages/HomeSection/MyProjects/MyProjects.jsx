@@ -3,10 +3,10 @@ import {
   BsFillMenuButtonWideFill,
 } from "react-icons/bs";
 import { GrServer } from "react-icons/gr";
-import restaurant from "../../../../../src/assets/images/Resturant_Project/Screenshot (126).png";
-import school from "../../../../../src/assets/images/school_Management/Screenshot (128).png";
+import restaurant from "../../../../../src/assets/images/Resturant_Project/Banner.png";
+import school from "../../../../../src/assets/images/school_Management/Banner.png";
+import consultancy from "../../../../../src/assets/images/Student Consultancy/Banner.png";
 import azraelle from "../../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp_ss.png";
-import consultancy from "../../../../../src/assets/images/Student Consultancy/Screenshot (129).png";
 import handy from "../../../../../src/assets/images/handy-toy/handy_toy_ss.png";
 import azaharmia from "../../../../../src/assets/images/azahar-mia-family/azaharmia-1.png";
 import { Link } from "react-router-dom";
@@ -39,7 +39,7 @@ const MyProjects = () => {
               <h2 className="card-title text-purple-700">
                 Restaurant Project
                 <a
-                  href="https://chef-mania-3ef19.web.app/"
+                  href=" Paste project link here "
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -55,30 +55,13 @@ const MyProjects = () => {
               </p>
               <div className="card-actions justify-between">
                 <div>
-                  <Link to="/chef">
+                  <Link to="/restaurant">
                     <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
                       Details <BsFillMenuButtonWideFill className="ms-2" />
                     </div>
                   </Link>
                 </div>
-                <div>
-                  <a
-                    href="https://github.com/tamzid620/chef_mania_client"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400"
-                  >
-                    Client_Site <GrServer />
-                  </a>
-                  <a
-                    href="https://github.com/tamzid620/chef_manis_server"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400"
-                  >
-                    Server_Site <GrServer />
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -96,7 +79,7 @@ const MyProjects = () => {
               <h2 className="card-title text-purple-700">
                 School Management
                 <a
-                  href="https://chef-mania-3ef19.web.app/"
+                  href=" Paste project link here"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -112,30 +95,13 @@ const MyProjects = () => {
               </p>
               <div className="card-actions justify-between">
                 <div>
-                  <Link to="/chef">
+                  <Link to="/school">
                     <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
                       Details <BsFillMenuButtonWideFill className="ms-2" />
                     </div>
                   </Link>
                 </div>
-                <div>
-                  <a
-                    href="https://github.com/tamzid620/chef_mania_client"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400"
-                  >
-                    Client_Site <GrServer />
-                  </a>
-                  <a
-                    href="https://github.com/tamzid620/chef_manis_server"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400"
-                  >
-                    Server_Site <GrServer />
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -153,7 +119,7 @@ const MyProjects = () => {
               <h2 className="card-title text-purple-700">
                 Student Consultancy
                 <a
-                  href="https://chef-mania-3ef19.web.app/"
+                  href=" Paste project link here"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -169,30 +135,13 @@ const MyProjects = () => {
               </p>
               <div className="card-actions justify-between">
                 <div>
-                  <Link to="/chef">
+                  <Link to="/consultancy">
                     <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
                       Details <BsFillMenuButtonWideFill className="ms-2" />
                     </div>
                   </Link>
                 </div>
-                <div>
-                  <a
-                    href="https://github.com/tamzid620/chef_mania_client"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400"
-                  >
-                    Client_Site <GrServer />
-                  </a>
-                  <a
-                    href="https://github.com/tamzid620/chef_manis_server"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400"
-                  >
-                    Server_Site <GrServer />
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>

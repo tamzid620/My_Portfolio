@@ -12,7 +12,7 @@ import ss5 from '../../../../src/assets/images/azahar-mia-family/azaharmia-6.png
 const AzaharMia = () => {
   return (
     <div>
-            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_4</h2>
+            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_5</h2>
             <hr />
             <div className="flex justify-center items-center">
                 <div className="mt-20 grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 ">
@@ -37,7 +37,7 @@ const AzaharMia = () => {
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
                         <p>
-                            ➊ Website name  :  Azahar Mia Family <br />
+                            ➊ Website name  :  Family Tree <br />
 
                             ➋website features: <br />
                             ‣ Azahar Mia's family roots reach back to the late 16th century Cox-Bazar Bangladesh. Founded by Azahar Mia, the Rich Businessman, who married Nur Zahan Begum and together they started a family which now spans over Three generations.

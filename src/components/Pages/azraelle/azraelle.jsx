@@ -23,7 +23,7 @@ const Azraelle = () => {
 
     return (
         <div>
-            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_1</h2>
+            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_6</h2>
             <hr />
             <div className="flex justify-center items-center">
                 <div className="mt-20 grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 ">
@@ -75,7 +75,7 @@ const Azraelle = () => {
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
                         <p>
-                            ➊ Website name  :  Azraelle-Language-Camp <br />
+                            ➊ Website name  :  Language Course <br />
 
                             ➋website features: <br />
                             ‣ IN homepaghe you can see our classes gallery and popular instructor also some informaiton about our camp and it also have responsive design <br />

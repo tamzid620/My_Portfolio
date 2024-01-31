@@ -8,6 +8,9 @@ import Chef from "../components/Pages/chef/chef";
 import MyProjects from "../components/Pages/HomeSection/MyProjects/MyProjects";
 import Blog from "../components/Pages/HomeSection/Blog/Blog";
 import AzaharMia from "../components/Pages/AzaharMia/AzaharMia";
+import Restaurant from "../components/Pages/Restaurant/Restaurant";
+import School from "../components/Pages/School/School";
+import Consultancy from "../components/Pages/Consultancy/Consultancy";
 
 export const router = createBrowserRouter([
     {
@@ -26,6 +29,19 @@ export const router = createBrowserRouter([
         {
           path: "/blog",
           element: <Blog/>,
+        },
+        // projects section ----------------
+        {
+          path: "/restaurant",
+          element:<Restaurant/>,
+        },
+        {
+          path: "/school",
+          element:<School/>,
+        },
+        {
+          path: "/consultancy",
+          element:<Consultancy/>,
         },
         {
           path: "/azraelle",

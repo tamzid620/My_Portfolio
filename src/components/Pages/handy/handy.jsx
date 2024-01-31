@@ -15,7 +15,7 @@ import ss8 from '../../../../src/assets/images/handy-toy/handy-toy-store-client8
 const Handy = () => {
     return (
         <div>
-            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_2</h2>
+            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_4</h2>
             <hr />
             <div className="flex justify-center items-center">
                 <div className="mt-20 grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 ">
@@ -48,7 +48,10 @@ const Handy = () => {
                         </Carousel>
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
-                    <p>
+                        <p>
+                            ➊ Website name  :  Toy Store <br />
+
+                            ➋website features: <br /> 
 • 1. In homepage you can see a banner about out shop. and we also have so many section about shop category section ,latest news section , our gallery section  etc <br /> <br />
 
 • 2.we have toys collection all toys , my toys , add toys. <br /> <br />
