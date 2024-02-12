@@ -3,16 +3,15 @@ import css from "../../../../../src/assets/icons/css.png";
 import JavaScript from "../../../../../src/assets/icons/js.png";
 import react from "../../../../../src/assets/icons/react.png";
 import node from "../../../../../src/assets/icons/node.png";
-import reactrouter from "../../../../../src/assets/icons/reactrouter.png";
 import tailwind from "../../../../../src/assets/icons/tailwind.png";
 import bootstrap from "../../../../../src/assets/icons/bootstrap.png";
-import jwt from "../../../../../src/assets/icons/jwt.png";
 import stripe from "../../../../../src/assets/icons/stripe.png";
 import mongodb from "../../../../../src/assets/icons/mb.png";
 import expressjs from "../../../../../src/assets/icons/express.png";
 import firebase from "../../../../../src/assets/icons/firebase.png";
 import vite from "../../../../../src/assets/icons/vite.svg";
 import axious from "../../../../../src/assets/icons/axious.png";
+import gitHub from "../../../../../src/assets/icons/github.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -35,7 +34,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
-          className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+          className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={html} alt="" /> <br />
               <h1 className="flex justify-center">HTML</h1>
@@ -46,7 +45,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={css} alt="" />
               <h1 className="flex justify-center">css</h1>
@@ -57,7 +56,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
-          className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+          className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={JavaScript} alt="" />
               <h1 className="flex justify-center">JavaScript</h1>
@@ -68,7 +67,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={node} alt="" />
               <h1 className="flex justify-center">node.js</h1>
@@ -79,10 +78,10 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
-          className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+          className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={react} alt="" />
-              <h1 className="flex justify-center">React</h1>
+              <h1 className="flex justify-center">React.js</h1>
             </div>
           </div>
           {/* vite logo  */}
@@ -90,7 +89,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1200"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={vite} alt="" />
               <h1 className="flex justify-center">vite</h1>
@@ -101,7 +100,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1200"
-          className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+          className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               {" "}
               <br />
@@ -114,7 +113,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1200"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={bootstrap} alt="" /> <br />
               <h1 className="flex justify-center">bootstrap</h1>
@@ -125,7 +124,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1400"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={stripe} alt="" /> <br />
               <h1 className="flex justify-center">stripe</h1>
@@ -136,7 +135,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1400"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={mongodb} alt="" />
               <h1 className="flex justify-center">mongodb</h1>
@@ -147,7 +146,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1400"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               {" "}
               <br />
@@ -160,7 +159,7 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1400"
-          className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+          className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={axious} alt="" />
               <h1 className="flex justify-center">axious</h1>
@@ -171,10 +170,21 @@ const MySkills = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1400"
-           className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
             <div className="inner-element">
               <img className="w-[100px]" src={firebase} alt="" />
               <h1 className="flex justify-center">firebase</h1>
+            </div>
+          </div>
+          {/* gitHub logo  */}
+          <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1400"
+           className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center">
+            <div className="inner-element">
+              <img className="w-[100px]" src={gitHub} alt="" />
+              <h1 className="flex justify-center">gitHub</h1>
             </div>
           </div>
         </div>

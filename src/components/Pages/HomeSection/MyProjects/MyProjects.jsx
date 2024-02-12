@@ -26,131 +26,11 @@ const MyProjects = () => {
         <div className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {/*---------------- my projects card --------------- */}
 
-          {/* Restaurant Project  */}
-          <div
-            data-aos="flip-down"
-            data-aos-duration="1400"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-300"
-          >
-            <figure>
-              <img className="p-2 rounded-xl" src={restaurant} alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-purple-700">
-                Restaurant Project
-                <a
-                  href="https://stunning-panda-61ddff.netlify.app/"
-                  target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
-                  rel="noreferrer"
-                >
-                  Visit <BsFillArrowRightCircleFill className="ms-2" />
-                </a>
-              </h2>
-              <p className="font-semibold mb-5">
-                <span>• Html, Css, JavaScript,</span> <br />
-                <span>• Nodejs, React, tailwind</span> <br />
-                <span>• Vite,Laravel, Php, </span> <br />
-                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
-              </p>
-              <div className="card-actions justify-between">
-                <div>
-                  <Link to="/restaurant">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
-                    </div>
-                  </Link>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-
-          {/* School Management   */}
-          <div
-            data-aos="flip-down"
-            data-aos-duration="1400"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-300"
-          >
-            <figure>
-              <img className="p-2 rounded-xl" src={school} alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-purple-700">
-                School Management
-                <a
-                  href="https://65b9eacd2cc4ca960cabfea2--dazzling-custard-561e7f.netlify.app/"
-                  target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
-                  rel="noreferrer"
-                >
-                  Visit <BsFillArrowRightCircleFill className="ms-2" />
-                </a>
-              </h2>
-              <p className="font-semibold mb-5">
-              <span>• Html, Css, JavaScript,</span> <br />
-                <span>• Nodejs, React, tailwind</span> <br />
-                <span>• Vite,Laravel, Php, </span> <br />
-                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
-              </p>
-              <div className="card-actions justify-between">
-                <div>
-                  <Link to="/school">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
-                    </div>
-                  </Link>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-
-          {/* Student-consultancy  */}
-          <div
-            data-aos="flip-down"
-            data-aos-duration="1400"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-300"
-          >
-            <figure>
-              <img className="p-2 rounded-xl" src={consultancy} alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-purple-700">
-                Student Consultancy
-                <a
-                  href="https://65b9ebb2195e369984a129cb--fascinating-pavlova-6f64b0.netlify.app/"
-                  target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
-                  rel="noreferrer"
-                >
-                  Visit <BsFillArrowRightCircleFill className="ms-2" />
-                </a>
-              </h2>
-              <p className="font-semibold mb-5">
-              <span>• Html, Css, JavaScript,</span> <br />
-                <span>• Nodejs, React, tailwind</span> <br />
-                <span>• Vite,Laravel, Php, </span> <br />
-                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
-              </p>
-              <div className="card-actions justify-between">
-                <div>
-                  <Link to="/consultancy">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
-                    </div>
-                  </Link>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-
           {/* Handy Toy */}
           <div
             data-aos="flip-down"
             data-aos-duration="700"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-300"
+            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={handy} alt="Shoes" />
@@ -207,7 +87,7 @@ const MyProjects = () => {
           <div
             data-aos="flip-down"
             data-aos-duration="900"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-300"
+            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={azaharmia} alt="Shoes" />
@@ -264,7 +144,7 @@ const MyProjects = () => {
           <div
             data-aos="flip-down"
             data-aos-duration="1100"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-300"
+            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={azraelle} alt="Shoes" />
@@ -317,6 +197,127 @@ const MyProjects = () => {
             </div>
           </div>
 
+
+          {/* Restaurant Project  */}
+          <div
+            data-aos="flip-down"
+            data-aos-duration="1400"
+            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+          >
+            <figure>
+              <img className="p-2 rounded-xl" src={restaurant} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-purple-700">
+                Restaurant Project
+                <a
+                  href="https://stunning-panda-61ddff.netlify.app/"
+                  target="_blank"
+                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  rel="noreferrer"
+                >
+                  Visit <BsFillArrowRightCircleFill className="ms-2" />
+                </a>
+              </h2>
+              <p className="font-semibold mb-5">
+                <span>• Html, Css, JavaScript,</span> <br />
+                <span>• Nodejs, React, tailwind</span> <br />
+                <span>• Vite,Laravel, Php, </span> <br />
+                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
+              </p>
+              <div className="card-actions justify-between">
+                <div>
+                  <Link to="/restaurant">
+                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
+                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    </div>
+                  </Link>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          {/* School Management   */}
+          <div
+            data-aos="flip-down"
+            data-aos-duration="1400"
+            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+          >
+            <figure>
+              <img className="p-2 rounded-xl" src={school} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-purple-700">
+                School Management
+                <a
+                  href="https://65b9eacd2cc4ca960cabfea2--dazzling-custard-561e7f.netlify.app/"
+                  target="_blank"
+                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  rel="noreferrer"
+                >
+                  Visit <BsFillArrowRightCircleFill className="ms-2" />
+                </a>
+              </h2>
+              <p className="font-semibold mb-5">
+              <span>• Html, Css, JavaScript,</span> <br />
+                <span>• Nodejs, React, tailwind</span> <br />
+                <span>• Vite,Laravel, Php, </span> <br />
+                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
+              </p>
+              <div className="card-actions justify-between">
+                <div>
+                  <Link to="/school">
+                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
+                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    </div>
+                  </Link>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          {/* Student-consultancy  */}
+          <div
+            data-aos="flip-down"
+            data-aos-duration="1400"
+            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+          >
+            <figure>
+              <img className="p-2 rounded-xl" src={consultancy} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-purple-700">
+                Student Consultancy
+                <a
+                  href="https://65b9ebb2195e369984a129cb--fascinating-pavlova-6f64b0.netlify.app/"
+                  target="_blank"
+                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  rel="noreferrer"
+                >
+                  Visit <BsFillArrowRightCircleFill className="ms-2" />
+                </a>
+              </h2>
+              <p className="font-semibold mb-5">
+              <span>• Html, Css, JavaScript,</span> <br />
+                <span>• Nodejs, React, tailwind</span> <br />
+                <span>• Vite,Laravel, Php, </span> <br />
+                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
+              </p>
+              <div className="card-actions justify-between">
+                <div>
+                  <Link to="/consultancy">
+                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
+                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    </div>
+                  </Link>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
