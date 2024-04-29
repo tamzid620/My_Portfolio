@@ -44,13 +44,13 @@ const Banner = () => {
             A passionate web developer dedicated to crafting exceptional online
             experiences. With a keen eye for design and a love for coding, I
             specialize in creating dynamic and user-friendly websites that leave
-            a lasting impression. From front-end development using HTML, CSS,
-            and JavaScript to back-end programming with expressjs and Mongodb
+            a lasting impression from front-end development using <mark>HTML, CSS,React
+            and JavaScript</mark> to back-end programming with <mark> Expressjs and Mongodb </mark>
             and many more.
           </span>
         </p>
         <a
-          href="https://drive.google.com/file/d/1wDnTcbX_yO23vDKiXNNKRphbrUeWuwPC/view?usp=sharing"
+          href="https://drive.google.com/file/d/12p2o5iHP9OBzhljx7rH49wbPyupSCgfE/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

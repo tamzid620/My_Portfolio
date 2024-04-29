@@ -9,7 +9,7 @@ import stripe from "../../../../../src/assets/icons/stripe.png";
 import mongodb from "../../../../../src/assets/icons/mb.png";
 import expressjs from "../../../../../src/assets/icons/express.png";
 import firebase from "../../../../../src/assets/icons/firebase.png";
-import redux from "../../../../../src/assets/icons/redux.png";
+// import redux from "../../../../../src/assets/icons/redux.png";
 import axious from "../../../../../src/assets/icons/axious.png";
 import gitHub from "../../../../../src/assets/icons/github.png";
 import materialUi from "../../../../../src/assets/icons/material ui .png";
@@ -99,7 +99,7 @@ const MySkills = () => {
             </div>
           </div>
           {/* Redux logo  */}
-          <div 
+          {/* <div 
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
@@ -108,7 +108,7 @@ const MySkills = () => {
               <img className="w-[100px]" src={redux} alt="" />
               <h1 className="flex justify-center">Redux</h1>
             </div>
-          </div>
+          </div> */}
           {/* Node logo  */}
           <div
           data-aos="fade-down"

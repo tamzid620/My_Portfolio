@@ -8,7 +8,7 @@ import school from "../../../../../src/assets/images/school_Management/Banner.pn
 import consultancy from "../../../../../src/assets/images/Student Consultancy/Banner.png";
 import azraelle from "../../../../../src/assets/images/azraelle-language-camp/azraelle-language-camp_ss.png";
 import handy from "../../../../../src/assets/images/handy-toy/handy_toy_ss.png";
-import azaharmia from "../../../../../src/assets/images/azahar-mia-family/azaharmia-1.png";
+import Ecommerce from "../../../../../src/assets/images/E-commerce/HomePage.png";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -83,20 +83,20 @@ const MyProjects = () => {
             </div>
           </div>
 
-          {/* Azahar Mia  */}
+          {/* E-commerce */}
           <div
             data-aos="flip-down"
             data-aos-duration="900"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
-              <img className="p-2 rounded-xl" src={azaharmia} alt="Shoes" />
+              <img className="p-2 rounded-xl" src={Ecommerce} alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
-                Family Tree
+              E-commerce(running project)
                 <a
-                  href="https://azahar-mia-family.netlify.app/"
+                  href="https://e-commerce-project-trial-1.netlify.app/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -108,11 +108,11 @@ const MyProjects = () => {
                 <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, tailwind</span> <br />
                 <span>• React, Vite </span> <br />
-                <span>• Netlify, ReactIcons, Reacttoast, etc...</span> <br />
+                {/* <span>• Netlify, ReactIcons, Reacttoast, etc...</span> <br /> */}
               </p>
               <div className="card-actions justify-between">
                 <div>
-                  <Link to="/azaharmia">
+                  <Link to="/">
                     <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
                       Details <BsFillMenuButtonWideFill className="ms-2" />
                     </div>
@@ -197,7 +197,6 @@ const MyProjects = () => {
             </div>
           </div>
 
-
           {/* Restaurant Project  */}
           <div
             data-aos="flip-down"
@@ -209,7 +208,7 @@ const MyProjects = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
-                Restaurant Project
+                Restaurant Project(Team Project)
                 <a
                   href="https://stunning-panda-61ddff.netlify.app/"
                   target="_blank"
@@ -249,7 +248,7 @@ const MyProjects = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
-                School Management
+                School Management(Team Project)
                 <a
                   href="https://65b9eacd2cc4ca960cabfea2--dazzling-custard-561e7f.netlify.app/"
                   target="_blank"
@@ -289,9 +288,9 @@ const MyProjects = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
-                Student Consultancy
+                Student Consultancy(Team Project)
                 <a
-                  href="https://65b9ebb2195e369984a129cb--fascinating-pavlova-6f64b0.netlify.app/"
+                  href="https://student-consultancy-998.netlify.app/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
