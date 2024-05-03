@@ -120,7 +120,7 @@ const MyProjects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://github.com/tamzid620/Azahar_Mia_2.0"
+                    href="/"
                     target="_blank"
                     rel="noreferrer"
                     className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400"
@@ -128,7 +128,7 @@ const MyProjects = () => {
                     Client_Site <GrServer />
                   </a>
                   <a
-                    href="https://github.com/tamzid620/Azahar_Mia_2.0"
+                    href="/"
                     target="_blank"
                     rel="noreferrer"
                     className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400"
