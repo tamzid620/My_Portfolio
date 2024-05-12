@@ -64,7 +64,7 @@ const MyEmail = () => {
             </p>
             <p className="text-purple-900 font-semibold flex gap-3 items-center ms-3">
               <MdWhatsapp className="text-green-500" /> what'sapp :
-              +8801757566555
+              +8801852951963
             </p>
             <p className="text-purple-900 font-semibold flex gap-3 items-center ms-3">
               <MdLocationOn className="text-yellow-400" /> Location :
