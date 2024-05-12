@@ -26,20 +26,20 @@ const MyProjects = () => {
         <div className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {/*---------------- my projects card --------------- */}
 
-          {/* Handy Toy */}
+          {/* Restaurant Project  */}
           <div
             data-aos="flip-down"
-            data-aos-duration="700"
+            data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
-              <img className="p-2 rounded-xl" src={handy} alt="Shoes" />
+              <img className="p-2 rounded-xl" src={restaurant} alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
-                Toy Store
+                Restaurant Project(Team Project)
                 <a
-                  href="https://handy-toy.web.app/"
+                  href="https://restaurant.4softbd.com/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -48,37 +48,20 @@ const MyProjects = () => {
                 </a>
               </h2>
               <p className="font-semibold mb-5">
-                <span>• Html, Css, JavaScript, </span> <br />
-                <span>• Nodejs, Mongodb, tailwind</span> <br />
-                <span>• React, Vite, expressjs, </span> <br />
-                <span>• Firebase, ReactIcons, Reacttoast, etc...</span> <br />
+                <span>• Html, Css, JavaScript,</span> <br />
+                <span>• Nodejs, React, tailwind</span> <br />
+                <span>• Vite,Laravel, Php, </span> <br />
+                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
               </p>
               <div className="card-actions justify-between">
                 <div>
-                  <Link to="/handy">
+                  <Link to="/restaurant">
                     <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
                       Details <BsFillMenuButtonWideFill className="ms-2" />
                     </div>
                   </Link>
                 </div>
-                <div>
-                  <a
-                    href="https://github.com/tamzid620/handy_toy_client"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400"
-                  >
-                    Client_Site <GrServer />
-                  </a>
-                  <a
-                    href="https://github.com/tamzid620/handy-toy-store-server"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400"
-                  >
-                    Server_Site <GrServer />
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -197,20 +180,20 @@ const MyProjects = () => {
             </div>
           </div>
 
-          {/* Restaurant Project  */}
+          {/* Handy Toy */}
           <div
             data-aos="flip-down"
-            data-aos-duration="1400"
+            data-aos-duration="700"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
-              <img className="p-2 rounded-xl" src={restaurant} alt="Shoes" />
+              <img className="p-2 rounded-xl" src={handy} alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-purple-700">
-                Restaurant Project(Team Project)
+                Toy Store
                 <a
-                  href="https://stunning-panda-61ddff.netlify.app/"
+                  href="https://handy-toy.web.app/"
                   target="_blank"
                   className="badge badge-warning border-gray-500  hover:bg-slate-400"
                   rel="noreferrer"
@@ -219,20 +202,37 @@ const MyProjects = () => {
                 </a>
               </h2>
               <p className="font-semibold mb-5">
-                <span>• Html, Css, JavaScript,</span> <br />
-                <span>• Nodejs, React, tailwind</span> <br />
-                <span>• Vite,Laravel, Php, </span> <br />
-                <span>• ReactIcons, Sweetalert2, etc...</span> <br />
+                <span>• Html, Css, JavaScript, </span> <br />
+                <span>• Nodejs, Mongodb, tailwind</span> <br />
+                <span>• React, Vite, expressjs, </span> <br />
+                <span>• Firebase, ReactIcons, Reacttoast, etc...</span> <br />
               </p>
               <div className="card-actions justify-between">
                 <div>
-                  <Link to="/restaurant">
+                  <Link to="/handy">
                     <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
                       Details <BsFillMenuButtonWideFill className="ms-2" />
                     </div>
                   </Link>
                 </div>
-                
+                <div>
+                  <a
+                    href="https://github.com/tamzid620/handy_toy_client"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400"
+                  >
+                    Client_Site <GrServer />
+                  </a>
+                  <a
+                    href="https://github.com/tamzid620/handy-toy-store-server"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="badge badge-error font-semibold ms-2 border-gray-500 hover:bg-slate-400"
+                  >
+                    Server_Site <GrServer />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
