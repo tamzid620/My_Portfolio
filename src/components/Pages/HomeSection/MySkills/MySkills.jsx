@@ -216,6 +216,7 @@ const MySkills = () => {
               <h1 className="flex justify-center">gitHub</h1>
             </div>
           </div>
+
         </div>
       </div>
     </div>

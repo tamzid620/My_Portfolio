@@ -70,6 +70,7 @@ const Banner = () => {
           <img className="w-[350px] lg:mt-[100px] md:mt-0 sm:mt-0 rounded-full " src={bannerimg} alt="" />
      
       </div>
+      
     </div>
   );
 };
