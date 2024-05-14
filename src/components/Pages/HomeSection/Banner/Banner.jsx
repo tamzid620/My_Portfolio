@@ -50,7 +50,7 @@ const Banner = () => {
           </span>
         </p>
         <a
-          href="https://drive.google.com/file/d/12p2o5iHP9OBzhljx7rH49wbPyupSCgfE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1vFccl3rPgPunNhfviwfvKXMCivzxp_MG/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
