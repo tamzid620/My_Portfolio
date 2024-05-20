@@ -51,6 +51,10 @@ const Banner = () => {
         </p>
         <a
           href="https://drive.google.com/file/d/1x7xJVqI3NodAyhFcz2_44h6ZHe02QHjf/view"
+<<<<<<< HEAD
+=======
+          target="_blank"
+>>>>>>> 9e28e435a273daa84ab5170e9f6637f40c409fa5
           rel="noreferrer"
         >
           <button
