@@ -52,6 +52,7 @@ const Banner = () => {
         <a
           href="https://drive.google.com/file/d/1x7xJVqI3NodAyhFcz2_44h6ZHe02QHjf/view"
           rel="noreferrer"
+          target="_blank"
         >
           <button
             data-aos="fade-down"
