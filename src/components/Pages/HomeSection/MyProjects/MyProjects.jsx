@@ -28,7 +28,7 @@ const MyProjects = () => {
 
           {/* Restaurant Project  */}
           <div
-            data-aos="flip-down"
+            data-aos="fade-up"
             data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -68,7 +68,7 @@ const MyProjects = () => {
 
           {/* E-commerce */}
           <div
-            data-aos="flip-down"
+            data-aos="fade-up"
             data-aos-duration="900"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -125,7 +125,7 @@ const MyProjects = () => {
 
           {/* Azraelle  */}
           <div
-            data-aos="flip-down"
+            data-aos="fade-up"
             data-aos-duration="1100"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -182,7 +182,7 @@ const MyProjects = () => {
 
           {/* Handy Toy */}
           <div
-            data-aos="flip-down"
+            data-aos="fade-up"
             data-aos-duration="700"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -239,7 +239,7 @@ const MyProjects = () => {
 
           {/* School Management   */}
           <div
-            data-aos="flip-down"
+            data-aos="fade-up"
             data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -279,7 +279,7 @@ const MyProjects = () => {
 
           {/* Student-consultancy  */}
           <div
-            data-aos="flip-down"
+            data-aos="fade-up"
             data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >

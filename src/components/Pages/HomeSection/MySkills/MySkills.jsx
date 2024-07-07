@@ -1,6 +1,7 @@
 import html from "../../../../../src/assets/icons/html.png";
 import css from "../../../../../src/assets/icons/css.png";
 import JavaScript from "../../../../../src/assets/icons/js.png";
+import nextJs from "../../../../../src/assets/icons/Next.js-removebg-preview.png";
 import react from "../../../../../src/assets/icons/react.png";
 import node from "../../../../../src/assets/icons/node.png";
 import tailwind from "../../../../../src/assets/icons/tailwind.png";
@@ -10,7 +11,6 @@ import mongodb from "../../../../../src/assets/icons/mb.png";
 import expressjs from "../../../../../src/assets/icons/express.png";
 import firebase from "../../../../../src/assets/icons/firebase.png";
 import redux from "../../../../../src/assets/icons/redux.png";
-import axious from "../../../../../src/assets/icons/axious.png";
 import gitHub from "../../../../../src/assets/icons/github.png";
 import materialUi from "../../../../../src/assets/icons/material ui .png";
 import Aos from "aos";
@@ -106,6 +106,18 @@ const MySkills = () => {
               <h1 className="flex justify-center">JavaScript</h1>
             </div>
           </div>
+          {/* NextJs logo  */}
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1400"
+            className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center"
+          >
+            <div className="inner-element">
+              <img className="w-[120px]" src={nextJs} alt="" />
+              <h1 className="flex justify-center">NextJs</h1>
+            </div>
+          </div>
           {/* React logo  */}
           <div
             data-aos="fade-down"
@@ -178,18 +190,6 @@ const MySkills = () => {
             <div className="inner-element">
               <img className="w-[100px]" src={stripe} alt="" /> <br />
               <h1 className="flex justify-center">stripe</h1>
-            </div>
-          </div>
-          {/* Axios logo  */}
-          <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1400"
-            className="shadow-2xl bg-transparent border-t-2 border-slate-200 p-2 rounded-lg w-[160px] flex justify-center"
-          >
-            <div className="inner-element">
-              <img className="w-[100px]" src={axious} alt="" />
-              <h1 className="flex justify-center">axious</h1>
             </div>
           </div>
           {/* firebase logo  */}
