@@ -61,6 +61,7 @@ const NavigationBar = () => {
 
   return (
     <nav 
+    style={{ fontFamily: "Nunito Sans, sans-serif"}}
     className='fixed z-10 
      bg-white opacity-90'>
       <div className="flex items-center justify-between">

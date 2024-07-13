@@ -21,7 +21,7 @@ const MySkills = () => {
 
   return (
     <div className="my-20 py-14 ">
-      <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">
+      <h2 style={{ fontFamily: "Arsenal SC, sans-serif"}}  className=" text-4xl uppercase flex justify-center mb-5">
         My Skills
       </h2>
       <hr className="border-[#5BCCF6]" />
@@ -31,7 +31,9 @@ const MySkills = () => {
         className="flex justify-center mt-10 uppercase font-semibold"
       >
         {/* -----------------grid div -------------- */}
-        <div className=" grid sm: grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
+        <div
+         style={{ fontFamily: "Nunito Sans, sans-serif"}}
+         className=" grid sm: grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           {/* html logo  */}
           <div
             data-aos="fade-down"

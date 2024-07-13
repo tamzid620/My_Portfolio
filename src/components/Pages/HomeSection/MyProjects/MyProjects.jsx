@@ -18,12 +18,12 @@ const MyProjects = () => {
 
   return (
     <div className="py-20 ">
-      <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">
+      <h2 style={{ fontFamily: "Arsenal SC, sans-serif"}}  className=" text-4xl uppercase flex justify-center mb-5">
         My Projects
       </h2>
       <hr className="border-[#5BCCF6]" />
       <div className="flex justify-center mt-10 ">
-        <div className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div style={{ fontFamily: "Nunito Sans, sans-serif"}} className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {/*---------------- my projects card --------------- */}
 
           {/* Restaurant Project  */}
@@ -41,7 +41,10 @@ const MyProjects = () => {
                 <a
                   href="https://restaurant.4softbd.com/"
                   target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  className="w-[60px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-t from-yellow-600 to-yellow-900 hover:from-yellow-900 hover:to-yellow-600
+                    text-xs text-white "
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />

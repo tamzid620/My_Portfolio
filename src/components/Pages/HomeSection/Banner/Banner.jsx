@@ -13,7 +13,8 @@ const Banner = () => {
     >
       {/* Heading section  */}
       <div className=" sm: ms-3 lg:ms-20 lg:mt-[150px] md:mt-[150px] sm: mt-[120px]">
-        <p className="font-semibold ">
+        <p
+        style={{ fontFamily: "Nunito Sans, sans-serif"}} className="font-semibold ">
           <span
             data-aos="fade-down"
             data-aos-easing="linear"
@@ -55,6 +56,7 @@ const Banner = () => {
           target="_blank"
         >
           <button
+          style={{ fontFamily: "Nunito Sans, sans-serif"}}
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"

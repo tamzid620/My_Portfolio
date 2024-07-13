@@ -46,12 +46,13 @@ const MyEmail = () => {
 
   return (
     <div className="my-20">
-      <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">
+      <h2 
+      style={{ fontFamily: "Arsenal SC, sans-serif"}}  className="text-4xl uppercase flex justify-center mb-5">
         Send Your Email
       </h2>
       <hr  className="border-[#5BCCF6]"/>
       <div className="flex justify-center mt-10">
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2">
+        <div style={{ fontFamily: "Nunito Sans, sans-serif"}} className="grid sm:grid-cols-1 lg:grid-cols-2">
           {/* picture information seciton  */}
           <div className="text-lg">
             <img className="w-[500px] rounded-3xl mb-5" src={emailimg} alt="" />

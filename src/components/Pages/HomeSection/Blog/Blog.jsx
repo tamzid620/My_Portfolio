@@ -12,7 +12,8 @@ const Blog = () => {
 
   return (
     <div className="py-20">
-      <h2 className="font-bold text-3xl uppercase text-center mb-5">
+      <h2
+      style={{ fontFamily: "Arsenal SC, sans-serif"}}  className="text-4xl uppercase text-center mb-5">
         About Me
       </h2>
       <hr className="border-[#5BCCF6]" />
@@ -23,7 +24,7 @@ const Blog = () => {
       >
         {/* paragraph section  */}
         <div
-          style={{ alignItems: "center", justifyContent: "center" }}
+          style={{ alignItems: "center", justifyContent: "center" , fontFamily: "Nunito Sans, sans-serif"}}
           className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
         >
           <div className="">
