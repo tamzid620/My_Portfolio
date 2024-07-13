@@ -28,7 +28,11 @@ const MyProjects = () => {
 
           {/* Restaurant Project  */}
           <div
+<<<<<<< HEAD
             data-aos="zoom-in-up"
+=======
+            data-aos="fade-up"
+>>>>>>> f5f31052d86051f1ed08cf135b6baeeeb40fe80a
             data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -68,7 +72,11 @@ const MyProjects = () => {
 
           {/* E-commerce */}
           <div
+<<<<<<< HEAD
             data-aos="zoom-in-up"
+=======
+            data-aos="fade-up"
+>>>>>>> f5f31052d86051f1ed08cf135b6baeeeb40fe80a
             data-aos-duration="900"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -125,7 +133,11 @@ const MyProjects = () => {
 
           {/* Azraelle  */}
           <div
+<<<<<<< HEAD
             data-aos="zoom-in-up"
+=======
+            data-aos="fade-up"
+>>>>>>> f5f31052d86051f1ed08cf135b6baeeeb40fe80a
             data-aos-duration="1100"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -182,7 +194,11 @@ const MyProjects = () => {
 
           {/* Handy Toy */}
           <div
+<<<<<<< HEAD
             data-aos="zoom-in-up"
+=======
+            data-aos="fade-up"
+>>>>>>> f5f31052d86051f1ed08cf135b6baeeeb40fe80a
             data-aos-duration="700"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -239,7 +255,11 @@ const MyProjects = () => {
 
           {/* School Management   */}
           <div
+<<<<<<< HEAD
             data-aos="zoom-in-up"
+=======
+            data-aos="fade-up"
+>>>>>>> f5f31052d86051f1ed08cf135b6baeeeb40fe80a
             data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
@@ -279,7 +299,11 @@ const MyProjects = () => {
 
           {/* Student-consultancy  */}
           <div
+<<<<<<< HEAD
             data-aos="zoom-in-up"
+=======
+            data-aos="fade-up"
+>>>>>>> f5f31052d86051f1ed08cf135b6baeeeb40fe80a
             data-aos-duration="1400"
             className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
