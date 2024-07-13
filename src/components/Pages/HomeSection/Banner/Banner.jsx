@@ -59,7 +59,7 @@ const Banner = () => {
             data-aos-easing="linear"
             data-aos-duration="1500"
             className="btn text-white mt-3
-            bg-purple-800 hover:text-black shadow-2xl"
+            bg-gradient-to-t from-indigo-900 to-purple-500 hover:from-purple-500 hover:to-indigo-900 shadow-2xl"
           >
             Resume
           </button>
