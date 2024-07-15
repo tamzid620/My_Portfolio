@@ -30,15 +30,20 @@ const MyProjects = () => {
           <div
            data-aos="zoom-in-up"
             data-aos-duration="1400"
-            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl
-             bg-transparent border-t-2 border-slate-200"
+            className="card rounded-md border bg-gray-100 lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl
+             bg-transparent"
           >
             <figure>
-              <img className="p-2 rounded-xl" src={restaurant} alt="Shoes" />
+              <img className="p-2 w-full h-56 rounded-md" src={restaurant} alt="Shoes" />
             </figure>
             <div className="card-body">
+              <p className="flex justify-between">
+              <span>
               <h2 className="card-title text-[18px]  text-purple-700">
-                Restaurant Project(Team Project)
+                Restaurant Project
+              </h2>
+              </span>
+              <span>
                 <a
                   href="https://restaurant.4softbd.com/"
                   target="_blank"
@@ -51,7 +56,8 @@ const MyProjects = () => {
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
                 </a>
-              </h2>
+              </span>
+              </p>
               <p className="font-semibold mb-5">
                 <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, React, tailwind</span> <br />
@@ -61,8 +67,7 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/restaurant">
-                    <div className="w-[70px] p-1 rounded-sm
-                  flex items-center
+                    <div className="flex justify-center items-center w-[85px] p-1 rounded-sm
                    bg-gradient-to-r from-green-500 to-green-700
                     hover:from-green-700 hover:to-green-500
                     text-xs text-white">
@@ -79,10 +84,10 @@ const MyProjects = () => {
           <div
           data-aos="zoom-in-up"
             data-aos-duration="900"
-            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl bg-gray-100"
           >
             <figure>
-              <img className="p-2 rounded-xl" src={Ecommerce} alt="Shoes" />
+              <img className="p-2 w-full h-56 rounded-xl" src={Ecommerce} alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-[18px]  text-purple-700">
@@ -109,8 +114,7 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/">
-                    <div className="w-[70px] p-1 rounded-sm
-                  flex items-center
+                    <div className="flex justify-center items-center w-[85px] p-1 rounded-sm
                    bg-gradient-to-r from-green-500 to-green-700
                     hover:from-green-700 hover:to-green-500
                     text-xs text-white">
@@ -174,8 +178,7 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/azraelle">
-                    <div className="w-[70px] p-1 rounded-sm
-                  flex items-center
+                    <div className="flex justify-center items-center w-[85px] p-1 rounded-sm
                    bg-gradient-to-r from-green-500 to-green-700
                     hover:from-green-700 hover:to-green-500
                     text-xs text-white">
@@ -239,8 +242,7 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/handy">
-                    <div className="w-[70px] p-1 rounded-sm
-                  flex items-center
+                    <div className="flex justify-center items-center w-[85px] p-1 rounded-sm
                    bg-gradient-to-r from-green-500 to-green-700
                     hover:from-green-700 hover:to-green-500
                     text-xs text-white">
@@ -310,8 +312,7 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/school">
-                    <div className="w-[70px] p-1 rounded-sm
-                  flex items-center
+                    <div className="flex justify-center items-center w-[85px] p-1 rounded-sm
                    bg-gradient-to-r from-green-500 to-green-700
                     hover:from-green-700 hover:to-green-500
                     text-xs text-white">
@@ -364,8 +365,7 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/consultancy">
-                    <div className="w-[70px] p-1 rounded-sm
-                  flex items-center
+                    <div className="flex justify-center items-center w-[85px] p-1 rounded-sm
                    bg-gradient-to-r from-green-500 to-green-700
                     hover:from-green-700 hover:to-green-500
                     text-xs text-white">
