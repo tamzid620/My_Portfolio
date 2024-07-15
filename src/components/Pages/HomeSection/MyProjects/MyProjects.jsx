@@ -24,27 +24,29 @@ const MyProjects = () => {
       <hr className="border-[#5BCCF6]" />
       <div className="flex justify-center mt-10 ">
         <div style={{ fontFamily: "Nunito Sans, sans-serif"}} className="grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {/*---------------- my projects card --------------- */}
+          {/*---------------- my projects card rounded-sm --------------- */}
 
           {/* Restaurant Project  */}
           <div
            data-aos="zoom-in-up"
             data-aos-duration="1400"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl
+             bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={restaurant} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-purple-700">
+              <h2 className="card-title text-[18px]  text-purple-700">
                 Restaurant Project(Team Project)
                 <a
                   href="https://restaurant.4softbd.com/"
                   target="_blank"
                   className="w-[60px] p-1 rounded-sm
                   flex items-center
-                   bg-gradient-to-t from-yellow-600 to-yellow-900 hover:from-yellow-900 hover:to-yellow-600
-                    text-xs text-white "
+                   bg-gradient-to-r from-yellow-500 to-black
+                    hover:from-black hover:to-yellow-500
+                    text-xs text-white"
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
@@ -59,8 +61,12 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/restaurant">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    <div className="w-[70px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-green-500 to-green-700
+                    hover:from-green-700 hover:to-green-500
+                    text-xs text-white">
+                      Details <BsFillMenuButtonWideFill size={20} className="ms-2" />
                     </div>
                   </Link>
                 </div>
@@ -73,18 +79,22 @@ const MyProjects = () => {
           <div
           data-aos="zoom-in-up"
             data-aos-duration="900"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={Ecommerce} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-purple-700">
+              <h2 className="card-title text-[18px]  text-purple-700">
               E-commerce(running project)
                 <a
                   href="https://e-commerce-project-trial-1.netlify.app/"
                   target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  className="w-[60px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-yellow-500 to-black
+                    hover:from-black hover:to-yellow-500
+                    text-xs text-white"
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
@@ -99,8 +109,12 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    <div className="w-[70px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-green-500 to-green-700
+                    hover:from-green-700 hover:to-green-500
+                    text-xs text-white">
+                      Details <BsFillMenuButtonWideFill size={20} className="ms-2" />
                     </div>
                   </Link>
                 </div>
@@ -130,18 +144,22 @@ const MyProjects = () => {
           <div
           data-aos="zoom-in-up"
             data-aos-duration="1100"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={azraelle} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-purple-700">
+              <h2 className="card-title text-[18px]  text-purple-700">
                 Language Course
                 <a
                   href="https://azraelle-language-camp.web.app/"
                   target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  className="w-[60px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-yellow-500 to-black
+                    hover:from-black hover:to-yellow-500
+                    text-xs text-white"
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
@@ -156,8 +174,12 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/azraelle">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    <div className="w-[70px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-green-500 to-green-700
+                    hover:from-green-700 hover:to-green-500
+                    text-xs text-white">
+                      Details <BsFillMenuButtonWideFill size={20} className="ms-2" />
                     </div>
                   </Link>
                 </div>
@@ -187,18 +209,22 @@ const MyProjects = () => {
           <div
           data-aos="zoom-in-up"
             data-aos-duration="700"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={handy} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-purple-700">
+              <h2 className="card-title text-[18px]  text-purple-700">
                 Toy Store
                 <a
                   href="https://handy-toy.web.app/"
                   target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  className="w-[60px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-yellow-500 to-black
+                    hover:from-black hover:to-yellow-500
+                    text-xs text-white"
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
@@ -213,8 +239,12 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/handy">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    <div className="w-[70px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-green-500 to-green-700
+                    hover:from-green-700 hover:to-green-500
+                    text-xs text-white">
+                      Details <BsFillMenuButtonWideFill size={20} className="ms-2" />
                     </div>
                   </Link>
                 </div>
@@ -244,23 +274,33 @@ const MyProjects = () => {
           <div
           data-aos="zoom-in-up" 
             data-aos-duration="1400"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={school} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-purple-700">
+            <p className="flex justify-between">
+            <span>
+              <h2 className="card-title text-[18px]  text-purple-700">
                 School Management(Team Project)
+              </h2>
+            </span>
+              <span>
                 <a
                   href="https://65b9eacd2cc4ca960cabfea2--dazzling-custard-561e7f.netlify.app/"
                   target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  className="w-[60px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-yellow-500 to-black
+                    hover:from-black hover:to-yellow-500
+                    text-xs text-white"
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
                 </a>
-              </h2>
+              </span>
+            </p>
               <p className="font-semibold mb-5">
               <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, React, tailwind</span> <br />
@@ -270,8 +310,12 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/school">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    <div className="w-[70px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-green-500 to-green-700
+                    hover:from-green-700 hover:to-green-500
+                    text-xs text-white">
+                      Details <BsFillMenuButtonWideFill size={20} className="ms-2" />
                     </div>
                   </Link>
                 </div>
@@ -284,23 +328,33 @@ const MyProjects = () => {
           <div
            data-aos="zoom-in-up"
             data-aos-duration="1400"
-            className="card lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
+            className="card rounded-sm lg:w-[385px] md:w-[380px] sm: w-[350px] shadow-xl   bg-transparent border-t-2 border-slate-200"
           >
             <figure>
               <img className="p-2 rounded-xl" src={consultancy} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-purple-700">
+              <p className="flex justify-between">
+              <span>
+              <h2 className="card-title text-[18px]  text-purple-700">
                 Student Consultancy(Team Project)
+              </h2>
+              </span>
+              <span>
                 <a
                   href="https://student-consultancy-998.netlify.app/"
                   target="_blank"
-                  className="badge badge-warning border-gray-500  hover:bg-slate-400"
+                  className="w-[60px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-yellow-500 to-black
+                    hover:from-black hover:to-yellow-500
+                    text-xs text-white"
                   rel="noreferrer"
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
                 </a>
-              </h2>
+              </span>
+              </p>
               <p className="font-semibold mb-5">
               <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, React, tailwind</span> <br />
@@ -310,8 +364,12 @@ const MyProjects = () => {
               <div className="card-actions justify-between">
                 <div>
                   <Link to="/consultancy">
-                    <div className="badge badge-success border-gray-500 font-semibold hover:bg-slate-400">
-                      Details <BsFillMenuButtonWideFill className="ms-2" />
+                    <div className="w-[70px] p-1 rounded-sm
+                  flex items-center
+                   bg-gradient-to-r from-green-500 to-green-700
+                    hover:from-green-700 hover:to-green-500
+                    text-xs text-white">
+                      Details <BsFillMenuButtonWideFill size={20} className="ms-2" />
                     </div>
                   </Link>
                 </div>
