@@ -38,9 +38,9 @@ const Layout = () => {
         <div 
         onClick={scrollToTop}
         title="Go Top"
-        className="fixed bottom-4 right-4 bg-white rounded-full w-[40px] border border-gray-300 z-50"
+        className="fixed bottom-4 right-4 bg-white rounded-full w-[50px] border border-gray-300 z-50"
         >
-          <IoIosArrowDropupCircle className="hover:text-gray-400" size={40} />
+          <IoIosArrowDropupCircle className="hover:text-gray-400" size={50} />
         </div>
       )}
         </div>
