@@ -20,7 +20,7 @@ const MySkills = () => {
   Aos.init();
 
   return (
-    <div className="my-20 py-14 ">
+    <div className=" py-14 bg-white">
       <h2 style={{ fontFamily: "Arsenal SC, sans-serif"}}  className=" text-4xl uppercase flex justify-center mb-5">
         My Skills
       </h2>

@@ -7,7 +7,7 @@ import MySkills from "../HomeSection/MySkills/MySkills";
 const Home = () => {
     return (
         <div>
-            <ParticlesBg num={100} type="cobweb" bg={true} />
+            <ParticlesBg num={400} type="cobweb" bg={true} />
             <Banner />
             <MySkills/>
             <MyProjects/>

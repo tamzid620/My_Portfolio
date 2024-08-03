@@ -45,7 +45,7 @@ const MyEmail = () => {
   };
 
   return (
-    <div className="my-20">
+    <div className=" py-20 bg-white">
       <h2 
       style={{ fontFamily: "Arsenal SC, sans-serif"}}  className="text-4xl uppercase flex justify-center mb-5">
         Send Your Email

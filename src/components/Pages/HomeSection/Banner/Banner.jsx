@@ -21,7 +21,7 @@ const Banner = () => {
             data-aos-duration="700"
             className="font-bold text-1xl uppercase text-purple-800"
           >
-            Assalamualikum,{" "}
+            Hi,{" "}
           </span>{" "}
           <br />
           <span className="font-bold text-3xl uppercase">
@@ -45,9 +45,9 @@ const Banner = () => {
             A passionate web developer dedicated to crafting exceptional online
             experiences. With a keen eye for design and a love for coding, I
             specialize in creating dynamic and user-friendly websites that leave
-            a lasting impression from front-end development using HTML, CSS, React,
+            a lasting impression from front-end development using HTML, CSS, Nextjs, Reactjs,
             and JavaScript to back-end programming with  Expressjs and Mongodb
-            and many more.
+            and more.
           </span>
         </p>
         <a

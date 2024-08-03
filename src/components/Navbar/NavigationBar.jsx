@@ -5,15 +5,15 @@ import { useState } from "react";
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolling, setScrolling] = useState(false);
+  // const [scrolling, setScrolling] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
-  };
+  // const handleScroll = () => {
+  //   if (window.scrollY > 0) {
+  //     setScrolling(true);
+  //   } else {
+  //     setScrolling(false);
+  //   }
+  // };
   // navmenu open close option -----------
   useEffect(() => {
     const hamburger = document.querySelector(".hamburger");

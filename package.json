@@ -18,7 +18,7 @@
     "particles-bg": "^2.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
+    "react-icons": "^4.12.0",
     "react-parallax-tilt": "^1.7.150",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.14.0",
