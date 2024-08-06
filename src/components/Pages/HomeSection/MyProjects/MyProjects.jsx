@@ -106,8 +106,9 @@ const MyProjects = () => {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-[18px]  text-purple-700">
-                E-commerce
+              <p className="card-title flex justify-between text-[18px]  text-purple-700">
+               <span>E-commerce</span>
+               <span>
                 <a
                   href="https://e-commerce-project-trial-1.netlify.app/"
                   target="_blank"
@@ -120,7 +121,8 @@ const MyProjects = () => {
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
                 </a>
-              </h2>
+               </span>
+              </p>
               <p className="font-semibold mb-5">
                 <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, tailwind</span> <br />
@@ -181,8 +183,9 @@ const MyProjects = () => {
               <img className="p-2 rounded-xl" src={azraelle} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-[18px]  text-purple-700">
-                Language Course
+              <p className="card-title flex justify-between text-[18px]  text-purple-700">
+               <span>Language Course</span>
+               <span>
                 <a
                   href="https://azraelle-language-camp.web.app/"
                   target="_blank"
@@ -195,7 +198,8 @@ const MyProjects = () => {
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
                 </a>
-              </h2>
+               </span>
+              </p>
               <p className="font-semibold mb-5">
                 <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, Mongodb, Stripe, tailwind</span> <br />
@@ -255,8 +259,9 @@ const MyProjects = () => {
               <img className="p-2 rounded-xl" src={handy} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-[18px]  text-purple-700">
-                Toy Store
+              <p className="card-title flex justify-between text-[18px]  text-purple-700">
+               <span>Toy Store</span>
+               <span>
                 <a
                   href="https://handy-toy.web.app/"
                   target="_blank"
@@ -269,7 +274,8 @@ const MyProjects = () => {
                 >
                   Visit <BsFillArrowRightCircleFill className="ms-2" />
                 </a>
-              </h2>
+               </span>
+              </p>
               <p className="font-semibold mb-5">
                 <span>• Html, Css, JavaScript, </span> <br />
                 <span>• Nodejs, Mongodb, tailwind</span> <br />
@@ -331,12 +337,11 @@ const MyProjects = () => {
               <img className="p-2 rounded-xl" src={school} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <p className="flex justify-between">
+                  <p className="card-title flex justify-between text-[18px]  text-purple-700">
                 <span>
-                  <h2 className="card-title text-[18px]  text-purple-700">
-                    School Management(Team Project)
-                  </h2>
+                    School Management
                 </span>
+                  
                 <span>
                   <a
                     href="https://65b9eacd2cc4ca960cabfea2--dazzling-custard-561e7f.netlify.app/"
@@ -351,7 +356,7 @@ const MyProjects = () => {
                     Visit <BsFillArrowRightCircleFill className="ms-2" />
                   </a>
                 </span>
-              </p>
+                </p>
               <p className="font-semibold mb-5">
                 <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, React, tailwind</span> <br />
@@ -386,12 +391,8 @@ const MyProjects = () => {
               <img className="p-2 rounded-xl" src={consultancy} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <p className="flex justify-between">
-                <span>
-                  <h2 className="card-title text-[18px]  text-purple-700">
-                    Student Consultancy(Team Project)
-                  </h2>
-                </span>
+                  <h2 className="card-title flex justify-between text-[18px]  text-purple-700">
+                <span>Student Consultancy</span>
                 <span>
                   <a
                     href="https://student-consultancy-998.netlify.app/"
@@ -406,7 +407,7 @@ const MyProjects = () => {
                     Visit <BsFillArrowRightCircleFill className="ms-2" />
                   </a>
                 </span>
-              </p>
+                </h2>
               <p className="font-semibold mb-5">
                 <span>• Html, Css, JavaScript,</span> <br />
                 <span>• Nodejs, React, tailwind</span> <br />

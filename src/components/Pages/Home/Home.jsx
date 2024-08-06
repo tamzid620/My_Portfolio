@@ -3,6 +3,7 @@ import Banner from "../HomeSection/Banner/Banner";
 import MyEmail from "../HomeSection/MyEmail/MyEmail";
 import MyProjects from "../HomeSection/MyProjects/MyProjects";
 import MySkills from "../HomeSection/MySkills/MySkills";
+import CurvDiv from "../HomeSection/CurvDiv/CurvDiv";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner />
             <MySkills/>
             <MyProjects/>
+            <CurvDiv/>
             {/* <Blog/> */}
             <MyEmail/>
         </div>
